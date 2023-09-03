@@ -48,8 +48,7 @@ spec:
         hosts:
           - grafana.mattrick.dev
       grafana.ini:
-        auth:
-          jwt:
+        auth.jwt:
             enabled: true
             header_name: CF_Authorization
             email_claim: email
