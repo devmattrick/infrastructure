@@ -17,5 +17,5 @@ spec:
   releaseName: external-dns
   values:
     cloudflare:
-      secretName: cloudflare
+      secretName: cloudflare-creds
       proxied: true
