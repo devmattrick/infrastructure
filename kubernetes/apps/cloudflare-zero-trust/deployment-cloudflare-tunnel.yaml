@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cloudflare-tunnel
+  namespace: zero-trust-system
   labels:
     app: cloudflare-tunnel
 spec:
