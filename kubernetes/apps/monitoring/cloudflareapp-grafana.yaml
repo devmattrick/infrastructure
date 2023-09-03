@@ -1,0 +1,14 @@
+apiVersion: cloudflare.zelic.io/v1alpha1
+kind: CloudflareAccessApplication
+metadata:
+  name: monitoring
+  namespace: monitoring
+spec:
+  name: Grafana
+  domain: grafana.mattrick.dev
+  autoRedirectToIdentity: true
+  policies: 
+    - name: Allow everyone
+      decision: allow
+      include:
+        - everyone: true
