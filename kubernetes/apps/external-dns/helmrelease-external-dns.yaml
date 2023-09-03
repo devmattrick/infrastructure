@@ -16,6 +16,7 @@ spec:
   timeout: 5m
   releaseName: external-dns
   values:
+    provider: cloudflare
     cloudflare:
       secretName: cloudflare-creds
       proxied: true
