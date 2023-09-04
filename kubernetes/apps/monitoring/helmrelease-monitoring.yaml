@@ -54,7 +54,7 @@ spec:
           email_claim: email
           auto_sign_up: true
           jwk_set_url: https://mattrick.cloudflareaccess.com/cdn-cgi/access/certs
-          role_attribute_path: "'GrafanaAdmin'"
+          role_attribute_path: "'Admin'"
           allow_assign_grafana_admin: true
 
   postRenderers:
